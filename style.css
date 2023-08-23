@@ -118,9 +118,12 @@ a1:hover {
 }
 
 .hamburger-menu {
-  position: relative;
+  position: fixed;
+  top: 7%; /* Adjust as needed */
+  right: 15%; /* Adjust as needed */
   display: inline-block;
 }
+
 
 .hamburger-icon {
   display: flex;
