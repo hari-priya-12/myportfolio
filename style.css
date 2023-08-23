@@ -114,16 +114,16 @@ a1:hover {
 /* HAMBURGER MENU */
 
 #hamburger-nav {
+  justify-content: flex-end;
   display: none;
+  margin: 10px;
 }
 
 .hamburger-menu {
-  position: fixed;
-  top: 7%; /* Adjust as needed */
-  right: 15%; /* Adjust as needed */
+  position: relative;
   display: inline-block;
+  padding-right: 60px;
 }
-
 
 .hamburger-icon {
   display: flex;
